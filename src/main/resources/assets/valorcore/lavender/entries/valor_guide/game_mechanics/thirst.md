@@ -1,7 +1,7 @@
 ```json
 {
   "title": "Thirst",
-  "icon": "minecraft:water_bottle", 
+  "icon": "minecraft:potion{Potion:water}", 
   "category": "valorcore:game_mechanics"
 }
 ```
