@@ -9,8 +9,9 @@
 		"Pixel Dream Studios"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://pixeldreamstudios.net/",
+		"sources": "https://github.com/kyber-6/valorcore-mod",
+		"issues": "https://github.com/kyber-6/valorcore-mod/issues"
 	},
 	"license": "GNU GPLv3",
 	"icon": "assets/valorcore/icon.png",
