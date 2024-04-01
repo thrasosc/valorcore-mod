@@ -3,6 +3,16 @@
   "title": "Thirst",
   "icon": "dehydration:leather_flask", 
   "category": "valorcore:game_mechanics",
+  "associated_items": [
+    "dehydration:leather_flask",
+    "dehydration:iron_leather_flask",
+    "dehydration:golden_leather_flask",
+    "dehydration:diamond_leather_flask",
+    "dehydration:netherite_leather_flask",
+    "dehydration:copper_cauldron",
+    "dehydration:campfire_cauldron",
+    "dehydration:bamboo_pump"
+  ],
   "ordinal": 0
 }
 ```
@@ -34,8 +44,23 @@ Additionally, you can purify water yourself with a number of different methods.
 ;;;;;
 
 1. Place a **water bottle** onto a campfire to obtain a **purified water bottle**.
-<item;minecraft:potion{Potion:'minecraft:purified_water'}>
 
-2. Campfire Cauldron
+2. You can build a **campfire cauldron** to heat up dirty water and purify it. First craft a **copper cauldron**.
+
+<recipe;dehydration:copper_cauldron>
+
+;;;;;
+
+Then, place the **copper cauldron** above a **campfire**.
 
 <structure;valorcore:campfire_cauldron>
+
+;;;;;
+
+Finally, you can make a **bamboo pump**, which pumps out fresh water straight from the ground.
+
+<recipe;dehydration:bamboo_pump>
+
+;;;;;
+
+Simply place the **bamboo pump** on a flat surface, attach an empty bottle or bucket using right-click, right-click to turn on and off the pump, then shift-right-click to obtain your purified water container.
