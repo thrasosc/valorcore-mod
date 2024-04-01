@@ -2,6 +2,8 @@ package net.pixeldreamstudios.valorcore;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.pixeldreamstudios.registry.ItemGroupRegistry;
+import net.pixeldreamstudios.registry.ItemRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,8 @@ public class ValorCore implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello from " + MOD_ID + "!");
+		LOGGER.info("And I said hey! What's going on?");
+		ItemGroupRegistry.init();
+		ItemRegistry.init();
 	}
 }
