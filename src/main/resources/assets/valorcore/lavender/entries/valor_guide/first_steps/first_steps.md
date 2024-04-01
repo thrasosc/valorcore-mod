@@ -2,7 +2,8 @@
 {
   "title": "First Tools",
   "icon": "notreepunching:flint_knife", 
-  "category": "valorcore:first_steps"
+  "category": "valorcore:first_steps",
+  "ordinal": 0
 }
 ```
 
