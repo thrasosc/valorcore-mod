@@ -1,5 +1,7 @@
 {
-  "item.valorcore.valor_guide": "Valor Almanac",
+  "itemgroup.valorcore": "Valor Core",
+
+  "item.valorcore.valorcore_valor_guide": "Valor Almanac",
 
   "structure.valorcore.campfire_cauldron": "Campfire Cauldron"
 }
