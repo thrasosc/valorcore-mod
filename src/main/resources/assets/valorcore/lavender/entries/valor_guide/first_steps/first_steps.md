@@ -1,8 +1,18 @@
 ```json
 {
   "title": "First Tools",
-  "icon": "notreepunching:flint_knife", 
+  "icon": "notreepunching:flint_knife",
   "category": "valorcore:first_steps",
+  "associated_items": [
+    "notreepunching:flint_shard",
+    "notreepunching:flint_knife",
+    "notreepunching:plant_fiber",
+    "notreepunching:plant_string",
+    "notreepunching:flint_axe",
+    "notreepunching:flint_pickaxe",
+    "notreepunching:flint_shovel",
+    "notreepunching:flint_hoe"
+  ],
   "ordinal": 0
 }
 ```
