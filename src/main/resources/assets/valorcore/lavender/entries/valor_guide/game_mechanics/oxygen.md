@@ -2,7 +2,8 @@
 {
   "title": "Oxygen",
   "icon": "minecraft:glass_bottle", 
-  "category": "valorcore:game_mechanics"
+  "category": "valorcore:game_mechanics",
+  "ordinal": 2
 }
 ```
 

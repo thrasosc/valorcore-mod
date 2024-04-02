@@ -2,7 +2,8 @@
 {
   "title": "Temperature",
   "icon": "minecraft:campfire", 
-  "category": "valorcore:game_mechanics"
+  "category": "valorcore:game_mechanics",
+  "ordinal": 1
 }
 ```
 

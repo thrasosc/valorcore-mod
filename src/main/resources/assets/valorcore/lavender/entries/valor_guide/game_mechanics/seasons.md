@@ -2,7 +2,8 @@
 {
   "title": "Seasons",
   "icon": "minecraft:sunflower", 
-  "category": "valorcore:game_mechanics"
+  "category": "valorcore:game_mechanics",
+  "ordinal": 6
 }
 ```
 
