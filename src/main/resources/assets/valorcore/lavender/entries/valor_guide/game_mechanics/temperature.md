@@ -26,7 +26,7 @@ The environment of Valor is harsh, and not for the faint of heart. You will need
 
 ---
 
-There are multiple ways to **keep cool** when it is hot.
+There are multiple ways to **keep cool** when it is hot:
 
 1. Take off your armor.
 2. Equip the Wanderer Armor.
@@ -54,7 +54,7 @@ There are multiple ways to **keep cool** when it is hot.
 
 ;;;;;
 
-There are also multiple ways to **keep warm** when it is freezing.
+There are also multiple ways to **keep warm** when it is freezing:
 
 1. Keep near sources of heat.
 2. Craft %{item.environmentz.heating_stones}%.

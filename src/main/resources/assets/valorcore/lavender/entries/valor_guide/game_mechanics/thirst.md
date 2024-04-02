@@ -18,9 +18,11 @@
 }
 ```
 
-In addition to satisfying hunger, you also have to quench your thirst. You can drink water from any water source by holding right-click, but fresh water can only be found in rivers.
+In addition to satisfying hunger, you also have to quench your thirst.
 
 ---
+
+You can drink water from any water source by holding <keybind;key.use>, but fresh water may only be found in rivers.
 
 ;;;;;
 
@@ -66,4 +68,4 @@ Finally, you can make a %{block.dehydration.bamboo_pump}%, which pumps out fresh
 
 ;;;;;
 
-Simply place the %{block.dehydration.bamboo_pump}% on a flat surface, attach an empty bottle or bucket using right-click, right-click to turn on and off the pump, then shift-right-click to obtain your purified water container.
+Simply place the %{block.dehydration.bamboo_pump}% on a flat surface, attach an empty bottle or bucket, press <keybind;key.use> to turn on and off the pump, then <keybind;key.sneak>-<keybind;key.use> to obtain your purified water container.
