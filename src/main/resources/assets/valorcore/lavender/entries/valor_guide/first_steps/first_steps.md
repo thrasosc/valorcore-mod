@@ -7,9 +7,9 @@
 }
 ```
 
-Find **flint** by breaking **gravel**. Hold right-click on any **stone** surface with **flint** in hand to begin knapping and obtain **flint shards**.
+Find %{item.minecraft.flint}% by breaking %{block.minecraft.gravel}%. Hold right-click on any stone surface with %{item.minecraft.flint}% in hand to begin knapping and obtain %{item.notreepunching.flint_shard}%.
 
-Gather **sticks** by breaking **tree leaves**.
+Gather %{item.minecraft.stick}% by breaking tree leaves.
 
 ;;;;;
 
@@ -19,9 +19,9 @@ Craft your first essential tool.
 
 ;;;;;
 
-After crafting your very own **flint knife**, you can now begin cutting grass to obtain **grass** to obtain **plant fiber**.
+After crafting your very own %{item.notreepunching.flint_knife}%, you can now begin cutting %{block.minecraft.grass}% to obtain %{item.notreepunching.plant_fiber}%.
 
-After obtaining **plant fiber**, use it to make **plant string** in your inventory crafting grid.
+After obtaining %{item.notreepunching.plant_fiber}%, use it to make %{item.notreepunching.plant_string}% in your inventory crafting grid.
 
 ;;;;;
 
