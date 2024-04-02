@@ -20,6 +20,8 @@
 
 In addition to satisfying hunger, you also have to quench your thirst. You can drink water from any water source by holding right-click, but fresh water can only be found in rivers.
 
+---
+
 ;;;;;
 
 A %{item.dehydration.leather_flask}% can be crafted to store purified water. Be careful not to mix it with dirty water, otherwise it will become dirty too.
