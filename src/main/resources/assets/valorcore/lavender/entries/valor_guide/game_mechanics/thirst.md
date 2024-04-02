@@ -11,7 +11,8 @@
     "dehydration:netherite_leather_flask",
     "dehydration:copper_cauldron",
     "dehydration:campfire_cauldron",
-    "dehydration:bamboo_pump"
+    "dehydration:bamboo_pump",
+    "minecraft:potion{Potion:purified_water}"
   ],
   "ordinal": 0
 }
@@ -21,7 +22,7 @@ In addition to satisfying hunger, you also have to quench your thirst. You can d
 
 ;;;;;
 
-A **leather flask** can be crafted to store purified water. Be careful not to mix it with dirty water, otherwise it will become dirty too.
+A %{item.dehydration.leather_flask}% can be crafted to store purified water. Be careful not to mix it with dirty water, otherwise it will become dirty too.
 
 <recipe;dehydration:leather_flask>
 
@@ -43,24 +44,24 @@ Additionally, you can purify water yourself with a number of different methods.
 
 ;;;;;
 
-1. Place a **water bottle** onto a campfire to obtain a **purified water bottle**.
+1. Place a %{item.minecraft.potion.effect.water}% onto a campfire to obtain a %{item.minecraft.potion.effect.purified_water}%.
 
-2. You can build a **campfire cauldron** to heat up dirty water and purify it. First craft a **copper cauldron**.
+2. You can build a %{block.dehydration.campfire_cauldron}% to heat up dirty water and purify it. First craft a %{block.dehydration.copper_cauldron}%.
 
 <recipe;dehydration:copper_cauldron>
 
 ;;;;;
 
-Then, place the **copper cauldron** above a **campfire**.
+Then, place the %{block.dehydration.copper_cauldron}% above a %{block.minecraft.campfire}%.
 
 <structure;valorcore:campfire_cauldron>
 
 ;;;;;
 
-Finally, you can make a **bamboo pump**, which pumps out fresh water straight from the ground.
+Finally, you can make a %{block.dehydration.bamboo_pump}%, which pumps out fresh water straight from the ground.
 
 <recipe;dehydration:bamboo_pump>
 
 ;;;;;
 
-Simply place the **bamboo pump** on a flat surface, attach an empty bottle or bucket using right-click, right-click to turn on and off the pump, then shift-right-click to obtain your purified water container.
+Simply place the %{block.dehydration.bamboo_pump}% on a flat surface, attach an empty bottle or bucket using right-click, right-click to turn on and off the pump, then shift-right-click to obtain your purified water container.
