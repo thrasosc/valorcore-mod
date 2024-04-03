@@ -18,9 +18,9 @@ While you usually do not have to worry about oxygen, be mindful of travelling to
 
 ---
 
-;;;;;
-
 If you reach a height of Y > 200, you will begin to lose oxygen. When all your oxygen is depleted, so will you begin to fade.
+
+;;;;;
 
 To circumvent this, you can craft an %{item.thinair.air_bladder}% to store fresh oxygen on-the-go.
 
