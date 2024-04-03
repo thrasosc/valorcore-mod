@@ -18,8 +18,5 @@ public class ValorCore implements ModInitializer {
 		LOGGER.info("And I said hey! What's going on?");
 		ItemGroupRegistry.init();
 		ItemRegistry.init();
-		ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
-			client.setScreen(new TutorialScreen());
-		});
 	}
 }
