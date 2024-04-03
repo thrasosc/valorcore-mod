@@ -56,6 +56,15 @@ dependencies {
 	modImplementation "maven.modrinth:environmentz:2.0.8+1.20.1"
 	// AdventureZ
 	modImplementation "maven.modrinth:adventurez:1.4.20+1.20.1"
+	// Forge Config API Port
+	modImplementation "maven.modrinth:forge-config-api-port:v8.0.0-1.20.1-Fabric"
+	// Puzzles Lib
+	modImplementation "maven.modrinth:puzzles-lib:v8.1.18-1.20.1-Fabric"
+	// Thin Air
+	modImplementation "maven.modrinth:thin-air:v8.1.5-1.20.1-Fabric"
+	// Cardinal Components API
+	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:5.2.2"
+	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-chunk:5.2.2"
 }
 
 processResources {
