@@ -1,7 +1,7 @@
 ```json
 {
   "title": "Skills [WIP]",
-  "icon": "minecraft:iron_sword", 
+  "icon": "valorcore:skills_icon", 
   "category": "valorcore:game_mechanics",
   "ordinal": 5
 }

@@ -51,7 +51,6 @@ dependencies {
 	modImplementation ("com.github.apace100:autotag:2.0.2+1.20")
 	// Satin
 	modImplementation "io.github.ladysnake:satin:1.13.0"
-	include "io.github.ladysnake:satin:1.13.0"
 	// EnvironmentZ
 	modImplementation "maven.modrinth:environmentz:2.0.8+1.20.1"
 	// AdventureZ
@@ -67,6 +66,9 @@ dependencies {
 	// Cardinal Components API
 	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:5.2.2"
 	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-chunk:5.2.2"
+	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:5.2.2"
+	// Numismatic Overhaul
+	modImplementation "maven.modrinth:numismatic-overhaul:0.2.14+1.20"
 }
 
 processResources {
