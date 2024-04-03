@@ -1,9 +1,9 @@
 ```json
 {
-  "title": "Skills",
+  "title": "Skills [WIP]",
   "icon": "minecraft:iron_sword", 
   "category": "valorcore:game_mechanics",
-  "ordinal": 4
+  "ordinal": 5
 }
 ```
 

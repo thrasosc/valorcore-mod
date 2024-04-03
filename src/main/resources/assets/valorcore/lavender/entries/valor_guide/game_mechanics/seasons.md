@@ -1,9 +1,9 @@
 ```json
 {
-  "title": "Seasons",
+  "title": "Seasons [WIP]",
   "icon": "minecraft:sunflower", 
   "category": "valorcore:game_mechanics",
-  "ordinal": 6
+  "ordinal": 4
 }
 ```
 
