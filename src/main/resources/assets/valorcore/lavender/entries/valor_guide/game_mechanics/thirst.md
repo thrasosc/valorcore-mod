@@ -50,9 +50,15 @@ Additionally, you can purify water yourself with a number of different methods.
 
 1. Place a %{item.minecraft.potion.effect.water}% onto a campfire to obtain a %{item.minecraft.potion.effect.purified_water}%.
 
-2. You can build a %{block.dehydration.campfire_cauldron}% to heat up dirty water and purify it. First craft a %{block.dehydration.copper_cauldron}%.
+2. Additionoally, you can build a %{block.dehydration.campfire_cauldron}% to heat up dirty water and purify it. First craft a %{block.dehydration.copper_cauldron}%.
 
 <recipe;dehydration:copper_cauldron>
+
+;;;;;
+
+Then craft a %{block.dehydration.campfire_cauldron}%.
+
+<recipe;dehydration:campfire_cauldron>
 
 ;;;;;
 
@@ -62,7 +68,7 @@ Then, place the %{block.dehydration.copper_cauldron}% above a %{block.minecraft.
 
 ;;;;;
 
-Finally, you can make a %{block.dehydration.bamboo_pump}%, which pumps out fresh water straight from the ground.
+3. Finally, you can make a %{block.dehydration.bamboo_pump}%, which pumps out fresh water straight from the ground.
 
 <recipe;dehydration:bamboo_pump>
 
