@@ -1,7 +1,7 @@
 ```json
 {
   "title": "Thirst",
-  "icon": "dehydration:leather_flask", 
+  "icon": "minecraft:potion{Potion:purified_water}", 
   "category": "valorcore:game_mechanics",
   "associated_items": [
     "dehydration:leather_flask",
