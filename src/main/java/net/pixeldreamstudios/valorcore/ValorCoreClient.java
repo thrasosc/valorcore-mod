@@ -33,8 +33,7 @@ public class ValorCoreClient implements ClientModInitializer {
                         }
                     }
                 }
-//                Screens.getButtons(screen).add(IconButtonWidget.builder(Text.empty(), new Identifier("minecraft", "item/gold_nugget"), button -> client.setScreen(new LavenderBookScreen(BookLoader.get(new Identifier(ValorCore.MOD_ID, "valor_guide"))))).iconSize(16,16).textureSize(16, 16)..build());
-                Screens.getButtons(screen).add(ButtonWidget.builder(Text.literal("Guide book"), p -> client.setScreen(new LavenderBookScreen(BookLoader.get(new Identifier(ValorCore.MOD_ID, "valor_guide"))))).position(screen.width / 2 + 16, screen.height / 5 + 3).size(72, 16).build());
+                Screens.getButtons(screen).add(ButtonWidget.builder(Text.literal("Guide Book"), p -> client.setScreen(new LavenderBookScreen(BookLoader.get(new Identifier(ValorCore.MOD_ID, "valor_guide"))))).position(scaledWidth / 2 + 8, scaledHeight / 2 - 98).size(80, 16).build());
             }
         });
     }
