@@ -1,4 +1,4 @@
-package net.pixeldreamstudios.registry;
+package net.pixeldreamstudios.valorcore.registry;
 
 import io.wispforest.lavender.book.LavenderBookItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;

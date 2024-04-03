@@ -1,4 +1,4 @@
-package net.pixeldreamstudios.registry;
+package net.pixeldreamstudios.valorcore.registry;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
