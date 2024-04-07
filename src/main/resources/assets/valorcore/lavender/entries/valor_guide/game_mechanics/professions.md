@@ -1,7 +1,7 @@
 ```json
 {
-  "title": "Professions",
-  "icon": "minecraft:writable_book", 
+  "title": "Professions [WIP]",
+  "icon": "valorcore:professions_icon", 
   "category": "valorcore:game_mechanics",
   "ordinal": 5
 }

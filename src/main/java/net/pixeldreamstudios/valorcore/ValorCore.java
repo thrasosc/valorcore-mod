@@ -2,8 +2,10 @@ package net.pixeldreamstudios.valorcore;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.pixeldreamstudios.registry.ItemGroupRegistry;
-import net.pixeldreamstudios.registry.ItemRegistry;
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
+import net.pixeldreamstudios.valorcore.registry.ItemGroupRegistry;
+import net.pixeldreamstudios.valorcore.registry.ItemRegistry;
+import net.pixeldreamstudios.valorcore.screen.TutorialScreen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

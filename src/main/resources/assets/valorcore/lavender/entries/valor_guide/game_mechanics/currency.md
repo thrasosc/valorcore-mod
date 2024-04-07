@@ -1,7 +1,7 @@
 ```json
 {
-  "title": "Currency",
-  "icon": "minecraft:gold_nugget", 
+  "title": "Currency [WIP]",
+  "icon": "numismatic-overhaul:gold_coin", 
   "category": "valorcore:game_mechanics",
   "ordinal": 7
 }

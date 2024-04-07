@@ -17,7 +17,7 @@
 }
 ```
 
-Find %{item.minecraft.flint}% by breaking %{block.minecraft.gravel}%. Hold right-click on any stone surface with %{item.minecraft.flint}% in hand to begin knapping and obtain %{item.notreepunching.flint_shard}%.
+Find %{item.minecraft.flint}% by breaking %{block.minecraft.gravel}%. Hold <keybind;key.use> on any stone surface with %{item.minecraft.flint}% in hand to begin knapping and obtain %{item.notreepunching.flint_shard}%.
 
 Gather %{item.minecraft.stick}% by breaking tree leaves.
 
