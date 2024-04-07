@@ -7,3 +7,13 @@
 ```
 
 This category explains the several unique game mechanics found in Valor.
+
+
+
+
+
+
+
+
+
+![](valorcore:textures/miscellaneous/art_bottom.png)
