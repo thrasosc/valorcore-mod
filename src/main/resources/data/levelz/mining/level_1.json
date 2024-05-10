@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "level": 1,
+    "block": [
+        "minecraft:snow",
+        "minecraft:snow_block"
+    ]
+}
