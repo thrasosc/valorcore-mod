@@ -3,6 +3,10 @@ package net.pixeldreamstudios.valorcore;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
+import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.util.Identifier;
 import net.pixeldreamstudios.valorcore.registry.ItemGroupRegistry;
 import net.pixeldreamstudios.valorcore.registry.ItemRegistry;
 import net.pixeldreamstudios.valorcore.screen.TutorialScreen;
@@ -18,5 +22,15 @@ public class ValorCore implements ModInitializer {
 		LOGGER.info("And I said hey! What's going on?");
 		ItemGroupRegistry.init();
 		ItemRegistry.init();
+		compatCheck();
+	}
+
+	private void compatCheck() {
+		if (FabricLoader.getInstance().isModLoaded("torohealth")){
+			LOGGER.info("Loading ToroHealth compatibility.");
+			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
+					new Identifier(MOD_ID, "torohealth_compat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
+			)));
+		}
 	}
 }
