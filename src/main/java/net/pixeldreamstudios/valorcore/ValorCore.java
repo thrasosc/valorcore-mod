@@ -22,15 +22,5 @@ public class ValorCore implements ModInitializer {
 		LOGGER.info("And I said hey! What's going on?");
 		ItemGroupRegistry.init();
 		ItemRegistry.init();
-		compatCheck();
-	}
-
-	private void compatCheck() {
-		if (FabricLoader.getInstance().isModLoaded("torohealth")){
-			LOGGER.info("Loading ToroHealth compatibility.");
-			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
-					new Identifier(MOD_ID, "torohealth_compat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
-			)));
-		}
 	}
 }
