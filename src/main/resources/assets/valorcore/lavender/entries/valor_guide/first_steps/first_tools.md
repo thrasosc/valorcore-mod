@@ -46,3 +46,7 @@ You will then be able to craft the following basic tools.
 <recipe;notreepunching:flint_shovel>
 
 <recipe;notreepunching:flint_hoe>
+
+;;;;;
+
+To obtain wooden planks, place a wooden log below an axe in a crafting grid.
