@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "valorcore:item/spring_icon"
+    "layer0": "valorcore:item/seasons_icon"
   }
 }

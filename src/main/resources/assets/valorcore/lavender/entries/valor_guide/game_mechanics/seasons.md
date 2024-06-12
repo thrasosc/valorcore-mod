@@ -1,7 +1,7 @@
 ```json
 {
   "title": "Seasons [WIP]",
-  "icon": "valorcore:spring_icon", 
+  "icon": "valorcore:seasons_icon", 
   "category": "valorcore:game_mechanics",
   "ordinal": 6
 }
