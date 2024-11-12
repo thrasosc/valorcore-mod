@@ -103,7 +103,7 @@
           "conditions": [
             {
               "chances": [
-                0.25
+                0.1
               ],
               "condition": "minecraft:table_bonus",
               "enchantment": "minecraft:fortune"
